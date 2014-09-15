@@ -1,3 +1,9 @@
+/**
+*Evan Preisler - dex4zero4zone4
+*NUI Galway - Space Invaders Clone
+*Twitter @dex4zero4zone4
+*2014
+*/
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.*;
@@ -24,11 +30,10 @@ public class lab5 extends JFrame implements Runnable, KeyListener {
 	private String scoreBoard, scoreBoard2;
 	
 	public lab5(){
-		ImageIcon iconAlien = new ImageIcon("C:\\Users\\dex\\workspace\\CT255-lab5\\src\\sprite\\alien.png");
-		//@"C:\Users\dex\workspace\CT255-lab5\src\sprite"
-		ImageIcon iconAlien2 = new ImageIcon("C:\\Users\\dex\\workspace\\CT255-lab5\\src\\sprite\\alien2.png");
-		ImageIcon iconShip = new ImageIcon("C:\\Users\\dex\\workspace\\CT255-lab5\\src\\sprite\\ship.png");
-		ImageIcon iconBullet = new ImageIcon("C:\\Users\\dex\\workspace\\CT255-lab5\\src\\sprite\\bullet.png");
+		ImageIcon iconAlien = new ImageIcon("C:\\/*Enter your own path here*/\\alien.png");
+		ImageIcon iconAlien2 = new ImageIcon("C:\\/*Enter your own path here*/\\alien2.png");
+		ImageIcon iconShip = new ImageIcon("C:\\/*Enter your own path here*/\\ship.png");
+		ImageIcon iconBullet = new ImageIcon("C:\\/*Enter your own path here*/\\bullet.png");
 		bulletImage = iconBullet.getImage();
 		this.setTitle("SPACEEEEEEEE!!!!!!!");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
